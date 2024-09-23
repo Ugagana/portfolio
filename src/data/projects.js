@@ -40,7 +40,7 @@ const projects = [
 
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture12.png"
+            src="/images/Picture12.png"
             alt="Pie chart for 2021 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -62,7 +62,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture121.png"
+            src="/images/Picture121.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -84,14 +84,14 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture131.png"
+            src="/images/Picture131.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
         </td>
          <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture132.png"
+            src="/images/Picture132.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -139,7 +139,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture21.png"
+            src="/images/Picture21.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -162,7 +162,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture22.png"
+            src="/images/Picture22.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -184,7 +184,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture23.png"
+            src="/images/Picture23.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -238,14 +238,14 @@ const projects = [
 <td className="spacer-td">
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture311.png"
+            src="/images/Picture311.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '100px', border: '1px solid red' }}
           />
         </td>
      <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture31.png"
+            src="/images/Picture31.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -268,7 +268,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture32.png"
+            src="/images/Picture32.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -323,7 +323,7 @@ const projects = [
 <td className="spacer-td">
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture41.png"
+            src="/images/Picture41.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '100px', border: '1px solid red' }}
           />
@@ -347,7 +347,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture42.png"
+            src="/images/Picture42.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -369,7 +369,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture43.png"
+            src="/images/Picture43.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -391,7 +391,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture44.png"
+            src="/images/Picture44.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -449,7 +449,7 @@ const projects = [
 <td className="spacer-td">
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture51.png"
+            src="/images/Picture51.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '100px', border: '1px solid red' }}
           />
@@ -473,7 +473,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture52.png"
+            src="/images/Picture52.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -495,7 +495,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture53.png"
+            src="/images/Picture53.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -546,7 +546,7 @@ const projects = [
 <td className="spacer-td">
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture61.png"
+            src="/images/Picture61.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '100px', border: '1px solid red' }}
           />
@@ -599,7 +599,7 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture71.png"
+            src="/images/Picture71.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '100px', border: '1px solid red' }}
           />
@@ -623,7 +623,7 @@ const projects = [
 <td className="spacer-td"></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture72.png"
+            src="/images/Picture72.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
@@ -645,21 +645,21 @@ const projects = [
 <td className="spacer-td">
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture731.png"
+            src="/images/Picture731.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
         </td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture732.png"
+            src="/images/Picture732.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
         </td>
          <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture734.png"
+            src="/images/Picture734.png"
             alt="Pie chart for 1995 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
