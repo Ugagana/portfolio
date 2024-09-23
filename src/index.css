@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Works on Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff0011;
+    scrollbar-track-color: #009ac3;
+  }
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #009ac3;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff0011;
+    /* background-image: linear-gradient(to bottom, #9fe2f9, #006eff) !important; */
+    /* border-radius: 20px; */
+    /* border: 3px solid orange; */
+  }
+
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+  body{
+    --xposition: calc(100vw - 28px);
+  }
+  .animate-menu {
+    transform-origin: var(--xposition) 38px;
+  }
+  .animatedHeading {
+    width: fit-content;
+    background-clip: text;
+    background-image: linear-gradient(
+      45deg,
+      #09deff,
+      #22d3ee,
+      #3983f5,
+      #0066ff
+    );
+    background-size: 150%;
+    animation: customAnimation 2s ease-in-out 0s infinite alternate;
+  }
+  @keyframes customAnimation {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+}
+
+@layer components {
+  .section {
+    @apply flex flex-col  w-full h-full max-w-screen-lg px-2 xs:px-10 md:px-16 mx-auto py-16;
+  }
+  .form-input {
+    @apply pt-[0.65rem] pb-[0.4rem] px-10 bg-transparent border-2 rounded-md placeholder-shown:border-gray-400 placeholder:text-gray-500 text-white focus:outline-none w-full focus:text-white focus:border-white;
+  }
+}
+
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;  /* Ensures particles are behind content */
+}
+
+.App-header {
+  position: relative;
+  z-index: 1;  /* Ensures content appears above particles */
+}
+
+/* Add this CSS in your global styles for the modal */
+.fixed {
+  position: fixed;
+
+  z-index: 50;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-opacity-70 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+
+.modal-content {
+  max-height: 90vh; /* Max height */
+  overflow-y: auto;
+  z-index: 10000; /* Allow vertical scroll */
+}
+
+
+/* Custom scrollbar styling */
+.modal-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4); /* Color of the scrollbar */
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6); /* Change color on hover */
+}
+
+
+.project-details-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333; /* Set heading color */
+}
+
+.project-details-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #444; /* Set subheading color */
+}
+
+.project-details-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #555; /* Set text color */
+}
+
+.project-details-content img {
+  max-width: 100%;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+ol {
+  list-style-type: decimal;
+  margin-left: 20px; /* Indent the list */
+}
+
+ol img {
+  margin-left: 20px; /* Ensure images align with the list */
+}
+/* General Card Styling for Both Sections */
+/* General Card Styling for Both Sections */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px; /* Adjust padding for spacing */
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+  border-radius: 15px; /* Rounded corners */
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Shadow for 3D effect */
+  max-width: 800px; /* Limit the card width */
+  width: 90%; /* Responsive width */
+  margin-bottom: 30px; /* Space between cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect to lift the card */
+.card:hover {
+  transform: translateY(-10px); /* Lift the card */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
+}
+
+/* Heading Styling */
+h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-align: center; /* Center the main heading */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Subheading and Paragraph Styling */
+h3 {
+  font-size: 1.8rem;
+  color: #00bcd4; /* Accent color for subheadings */
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #e0e0e0; /* Light gray for text */
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* List items for experience */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul li {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+/* Add a border at the bottom of each card */
+.card::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100px;
+  margin: 20px auto 0;
+  background: linear-gradient(90deg, #00bcd4, #009688); /* Gradient border */
+  border-radius: 2px;
+}
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;  /* Ensures particles are behind content */
+}
+
+.App-header, .section {
+  position: relative;
+  z-index: 1;  /* Ensures content appears above particles */
+}
+/* Ensure the Experience Section and Heading are Visible */
+/* General Section Styling */
+.experience-section {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.experience-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 20;
+  opacity: 0; /* Initially invisible */
+  transform: translateX(-100px); /* Slide in from left */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Animation trigger when heading is in view */
+.experience-heading.slide-in-from-left {
+  opacity: 1;
+  transform: translateX(0); /* Move to original position */
+}
+
+/* Experience Cards */
+.experience-container {
+  overflow-x: hidden; 
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+  z-index: 15;
+  flex-wrap: wrap;
+}
+
+/* Individual Experience Card Styling */
+.experience-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  opacity: 0; /* Initially invisible */
+  transform: translateX(-100px); /* Slide in from left */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Hover Effect */
+.experience-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+}
+
+/* Trigger animation when card is in view */
+.experience-card.slide-in-from-left {
+  opacity: 1;
+  transform: translateX(0); /* Move to original position */
+}
+
+/* Additional Styling for Content */
+.experience-card h3 {
+  font-size: 1.5rem;
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+.experience-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.experience-card .date {
+  font-size: 1rem;
+  color: #d0d0d0;
+  margin-bottom: 20px;
+}
+
+.experience-card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.experience-card ul li {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+/* General Section Styling */
+.education-section {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.education-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 20;
+  opacity: 0; /* Initially invisible */
+  transform: translateX(-100px); /* Slide in from left */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Animation trigger when heading is in view */
+.education-heading.slide-in-from-left {
+  opacity: 1;
+  transform: translateX(0); /* Move to original position */
+}
+
+/* Education Cards */
+.education-container {
+  
+  overflow-x: hidden; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+  z-index: 15;
+  flex-wrap: wrap;
+}
+
+/* Individual Education Card Styling */
+.education-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  text-align: center;
+  z-index: 15;
+  opacity: 0; /* Initially invisible */
+  transform: translateX(-100px); /* Slide in from left */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Hover Effect */
+.education-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+}
+
+/* Trigger animation when card is in view */
+.education-card.slide-in-from-left {
+  opacity: 1;
+  transform: translateX(0); /* Move to original position */
+}
+
+/* Additional Styling for Content */
+.education-card h3 {
+  font-size: 1.5rem;
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+.education-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.education-card .date {
+  font-size: 1rem;
+  color: #d0d0d0;
+  margin-bottom: 20px;
+}
