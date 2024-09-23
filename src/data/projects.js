@@ -37,11 +37,10 @@ const projects = [
 <td className="spacer-td"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
         <td style={{ padding: '10px' }}>
           <img
-            src="src/assets/Projects/Picture11.png"
-            alt="Pie chart for 1995 energy consumption"
+            src="../assets/Picture11.png"
+            alt="Pie chart for 2021 energy consumption"
             style={{ width: '300px', border: '1px solid red' }}
           />
-        </td>
         <td style={{ padding: '10px' }}>
           <img
             src="src/assets/Projects/Picture12.png"
