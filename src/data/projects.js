@@ -1,10 +1,10 @@
-import project3 from "../assets/Projects/Project 3.jpg"
-import project4 from "../assets/Projects/Project 4.jpg"
-import project5 from "../assets/Projects/Project 5.jpg"
-import project6 from "../assets/Projects/Project 6.jpg"
-import project7 from "../assets/Projects/Project 7.jpg"
+import project3 from "../assets/Projects/project 3.jpg"
+import project4 from "../assets/Projects/project 4.jpg"
+import project5 from "../assets/Projects/project 5.jpg"
+import project6 from "../assets/Projects/project 6.jpg"
+import project7 from "../assets/Projects/project 7.jpg"
 import project1 from "../assets/Projects/Project 1.jpg"
-import project2 from "../assets/Projects/Project 2.jpg"
+import project2 from "../assets/Projects/project 2.jpg"
 
 
 
