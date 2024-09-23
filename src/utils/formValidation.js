@@ -54,19 +54,21 @@ const validateForm = (formData, setFormData, setErrData, initialFormData, initia
         submitionFormData.append('name', formData.name.trim());
         submitionFormData.append('email', formData.email.trim());
         submitionFormData.append('message', formData.message.trim());
-        fetch(`${import.meta.env.VITE_GETFORM_URL}`,
+    
+        fetch(`https://getform.io/f/bgdyrzwa`,
             {
                 method: "POST",
                 body: submitionFormData,
             })
             .then(response => {
                 if (response.redirected === true) {
-                    window.location = import.meta.env.VITE_GETFORM_SUCCESS_URL;
+                    window.location = '/'; // This is the success URL
                     setFormData(initialFormData);
                     setErrData(initialErrData);
                 }
             })
             .catch(error => console.log(error))
+        
     }
 }
 
