@@ -6,7 +6,8 @@ import { Download } from "./Icons";
 import resume from "../assets/resume.pdf";
 import profile from "../assets/profile.jpeg";
 import SectionHeading from "./SectionHeading";
-import techStack from "../data/techStack";
+import techStack from '../data/techStack';  // Assuming techStack.js is in the same folder as About.js
+;
 
 const About = () => {
   return (
@@ -60,17 +61,23 @@ const About = () => {
               </div>
               <AnimatedWrapper>
                 <ul className="px-2 flex gap-5 z-40 flex-wrap">
-                  {techStack.map(({ id, icon, name }) => {
-                    return (
-                      <li key={id} className=" relative list-none group">
-                        <span className="z-20">{icon}</span>
-                        {/* <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute z-50 -bottom-10 left-1/2 -translate-x-1/2 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
-                          {name}
-                        </div> */}
-                      </li>
-                    );
-                  })}
-                </ul>
+      {techStack.map(({ id, icon, name }) => {
+        return (
+          <li key={id} className="relative list-none group">
+            <img
+              src={icon}  // Use the icon image path
+              alt={name}  // Alt text for accessibility
+              width="40px"  // Adjust width as needed
+              height="40px"  // Adjust height as needed
+              className="z-20"
+            />
+            <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute z-50 -bottom-10 left-1/2 -translate-x-1/2 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
+              {name}  {/* Display name when hovered */}
+            </div>
+          </li>
+        );
+      })}
+    </ul>
               </AnimatedWrapper>
             </div>
           </AnimatedWrapper>
