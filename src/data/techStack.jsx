@@ -1,4 +1,4 @@
-import ReactJs, { JS, NextJs, TailwindCSS, Git, GitHub, VSCode } from "../components/SkilIcons"
+import ReactJs, { JS, NextJs, Git, GitHub, VSCode } from "../components/SkilIcons"
 
 
 const TechStack = [
@@ -14,18 +14,7 @@ const TechStack = [
         name: "Javascript",
 
     },
-    {
-        id: 3,
-        icon: <TailwindCSS width={25} height={30} />,
-        name: "TailwindCSS",
 
-    },
-    {
-        id: 4,
-        icon: <NextJs width={35} height1={20} height2={15} />,
-        name: "NextJs",
-
-    },
     {
         id: 5,
         icon: <Git width={27} height={30} />,
