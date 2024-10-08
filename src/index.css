@@ -288,29 +288,26 @@ ul li {
   text-transform: uppercase;
   position: relative;
   z-index: 20;
-  opacity: 0; /* Initially invisible */
-  transform: translateX(-100px); /* Slide in from left */
+  opacity: 0;
+  transform: translateX(-100px); 
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-/* Animation trigger when heading is in view */
 .experience-heading.slide-in-from-left {
   opacity: 1;
-  transform: translateX(0); /* Move to original position */
+  transform: translateX(0); 
 }
 
-/* Experience Cards */
 .experience-container {
   display: flex;
-  flex-wrap: wrap; /* Ensure cards wrap to the next line */
-  justify-content: center; /* Center the cards */
-  gap: 20px; /* Reduce the gap between the cards */
-  padding: 40px 20px; /* Add padding for top/bottom and left/right */
-  max-width: 1200px; /* Restrict the width of the container */
-  margin: 0 auto; /* Center the container horizontally */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Individual Experience Card Styling */
 .experience-card {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -323,47 +320,45 @@ ul li {
   text-align: center;
   z-index: 1;
   position: relative;
-  opacity: 0; /* Initially invisible */
-  transform: translateX(-100px); /* Slide in from left */
+  opacity: 0;
+  transform: translateX(-100px); 
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  max-height: 150px; /* Set max height to create compact cards */
-  overflow: hidden; /* Hide overflow content */
+  max-height: 400px;
+  overflow-y: hidden;
 }
 
-/* Active state to allow scrolling but hide scrollbar */
 .experience-card.scroll-active {
-  max-height: 400px; /* Increase height when active */
-  overflow-y: auto; /* Enable vertical scrolling */
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
+
 @media (max-width: 900px) {
   .experience-card {
-    width: 45%; /* Make cards wider for smaller screens */
+    width: 45%;
   }
 }
 
 @media (max-width: 600px) {
   .experience-card {
-    width: 100%; /* Stack cards for very small screens */
+    width: 100%;
   }
 }
 
 .experience-card ul, .experience-card p, .experience-card li {
-  text-align: left;
+  text-align: left; /* Align text to the left */
 }
-/* Hover Effect */
+
 .experience-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
 }
 
-/* Trigger animation when card is in view */
 .experience-card.slide-in-from-left {
   opacity: 1;
-  transform: translateX(0); /* Move to original position */
+  transform: translateX(0); 
 }
 
-/* Additional Styling for Content */
 .experience-card h3 {
   font-size: 1.5rem;
   color: #00d4ff;
@@ -389,31 +384,31 @@ ul li {
 .experience-card ul {
   list-style-type: disc;
   margin-left: 20px;
-  text-align: left;
   padding-right: 15px; 
-  text-align: center;/* Adjust to prevent horizontal scroll */
 }
 
 .experience-card ul li {
   color: #e0e0e0;
   font-size: 1.1rem;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: left; /* Ensure left text alignment */
+  line-height: 1.6; /* Improve line height for better readability */
 }
 
 /* Hide scrollbars for WebKit-based browsers (Chrome, Safari) */
 .experience-card::-webkit-scrollbar {
-  width: 0px; /* Hide scrollbar */
-  display: none; /* This will also ensure it's hidden */
+  width: 0px; 
+  display: none;
 }
 
 /* Hide scrollbars for Firefox */
 .experience-card {
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  scrollbar-width: none;
 }
 
 /* Smooth scrolling behavior */
 .experience-card.scroll-active {
-  scroll-behavior: smooth; /* Ensure smooth scrolling */
+  scroll-behavior: smooth; 
 }
 
 /* General Section Styling */

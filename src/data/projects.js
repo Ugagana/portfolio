@@ -114,7 +114,7 @@ const projects = [
     },
     {
         tileImg: project2,
-        code: "https://github.com/Ugagana/Market-segmentation-analysis-",
+        code: "https://github.com/Ugagana/Predicting-Advertisement-Clicks-using-R",
         description: "Predicting Advertisement Clicks",
         fullDetails: `<h1>Predicting Advertisement Clicks using R language</h1>
             <h2>Project Overview</h2>
@@ -212,7 +212,7 @@ const projects = [
         tileImg: project3,
         
         
-        "code": "https://github.com/Ugagana/Analyzing-San-Antonio-s-Online-Behavior",
+        "code": "https://github.com/Ugagana/Predictive-Modeling-for-Direct-Mail-Fundraising-Campaigns-using-Python",
         "description": "Predictive Modeling for Direct-Mail Fundraising Campaigns",
         "fullDetails": `<h1>Predictive Modeling for Direct-Mail Fundraising Campaigns using Python</h1>
           <h2>Project Overview</h2>
@@ -296,7 +296,7 @@ const projects = [
             tileImg: project4,
            
             "demo": "https://dev-news-793.vercel.app/",
-            "code": "https://github.com/Ugagana/Analyzing-San-Antonio-s-Online-Behavior",
+            "code": "https://public.tableau.com/app/profile/gagana.uday.kumar/viz/H1bProject/Story1?publish=yes",
             "description": "H1B Insights: Visualizing US Applicant Trends & Salaries",
             "fullDetails": `<h1>H1B Insights: Visualizing US Applicant Trends & Salaries using Tableau</h1>
               <h2>Project Overview</h2>
@@ -416,7 +416,7 @@ const projects = [
             tileImg: project5,
             
             "demo": "https://dev-news-793.vercel.app/",
-            "code": "https://github.com/Ugagana/Analyzing-San-Antonio-s-Online-Behavior",
+            "code": "https://github.com/Ugagana/Correspondence-Analysis-Education-and-Internet-Usage-Patterns",
             "description": "Correspondence Analysis Young People Survey",
             "fullDetails": `<h1>Correspondence Analysis: Education and Internet Usage Patterns</h1>
               <h2>Project Overview</h2>
@@ -575,7 +575,7 @@ const projects = [
         tileImg: project7,
         
         "demo": "https://dev-news-793.vercel.app/",
-        "code": "https://github.com/Ugagana/Analyzing-San-Antonio-s-Online-Behavior",
+        "code": "https://github.com/Ugagana/Market-segmentation-analysis-",
         "description": "Market Segmentation of Krispy Kreme Consumers",
         "fullDetails": `<h1>Market Segmentation of Krispy Kreme Consumers</h1>
           <h2>Project Overview</h2>
