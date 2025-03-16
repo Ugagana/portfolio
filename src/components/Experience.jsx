@@ -270,14 +270,11 @@ const Experience = () => {
               <h4>Better Futures Institute</h4>
               <p className="date">May 2024 - Aug 2024</p>
               <ul>
-                <li>Developed targeted community outreach strategies through geographic analysis of 311 service requests, enhancing community 
-                engagement by 30%.</li>
-                <li>Built a predictive model that forecasted 311 service requests with 65% accuracy, streamlining maintenance workflows and optimizing 
-                street repair schedules.</li>
-                <li>Designed interactive dashboards and comprehensive reports using Tableau and Power BI, providing actionable insights that improved 
-                resource allocation efficiency by 25%.</li>
-                <li>Conducted advanced statistical and geographic analysis using Python and R, identifying patterns in service requests that led to a 20% 
-                increase in proactive repairs.</li>
+                <li>Built a ML model with 65% accuracy, leveraging predictive analytics to forecast 311 requests, optimize repair schedules.</li>
+                <li>Applied hypothesis testing, A/B testing, & causal inference in Python & R, boosting proactive repairs by 20%.</li>
+                <li>Designed interactive dashboards using Power BI, enhancing resource allocation by 25% and driving data-informed decisions.</li>
+                <li>Analyzed GIS files & time-series data in SQL, uncovering trends in 311 requests, boosting community engagement by 30%.</li>
+                <li>Streamlined maintenance workflows through data wrangling and ETL/ELT processes, delivering actionable insights efficiently.</li>
               </ul>
             </div>
           </div>
@@ -295,15 +292,12 @@ const Experience = () => {
               <h4>Lowes India</h4>
               <p className="date">Jul 2020 - Sep 2022</p>
               <ul>
-                <li>Developed and trained 6 associates, enhancing team knowledge, resulting in a 20% increase in overall team productivity.</li>
-                <li>Designed and delivered data-driven insights via weekly and monthly Power BI dashboards, informing strategic decision-making with 
-                a 30% improvement in reporting speed.</li>
-                <li>Created standardized operating procedures (SOPs) and Visio flowcharts, streamlining the ARM process and ensuring scalability, which 
-                reduced onboarding time by 25%.</li>
-                <li>Spearheaded the pilot launch of the Asset Resolution and Maintenance (ARM) process, driving efficiency that led to a 15% increase 
-                in productivity and a 20% reduction in resolution times.</li>
-                <li>Led the asset maintenance team, ensuring timely resolution of seller issues and achieving a 95% satisfaction rate in high-quality asset 
-                delivery (images, videos, 360 Spin).</li>
+                <li>Optimized 2TB+ datasets using SQL on Snowflake & Power BI, improving query efficiency by 25% & informing strategies.</li>
+                <li>Crafted real-time Power BI dashboards with DAX functions, reducing reporting turnaround time by 30% and tracking KPIs.</li>
+                <li>Conducted A/B testing, hypothesis testing to measure process improvements and increasing efficiency by 15%.</li>
+                <li>Performed feature engineering & EDA on customer data in Python, providing recommendations to optimize pricing strategies.</li>
+                <li>Automated data workflows and reporting with SQL queries, enabling real-time tracking and reducing manual efforts by 20%.</li>
+                <li>Mentored 6 team members on SQL, Power BI, & analytics techniques, elevating team proficiency & operational capabilities</li>
               </ul>
             </div>
           </div>
@@ -321,10 +315,11 @@ const Experience = () => {
               <h4>Amazon.in</h4>
               <p className="date">Dec 2018 - Aug 2020</p>
               <ul>
-                <li>Oversaw team prioritization, productivity, reporting, and training needs, resulting in a 25% improvement in operational efficiency</li>
-                <li>Applied SQL to fetch and transform data, designing interactive dashboards in Tableau and Power BI that boosted data accessibility by 40% and aided strategic decision-making.</li>
-                <li>Formulated operational strategies as a Subject Matter Expert (SME), accelerating team efficiency and productivity by 20%.</li>
-                <li>Conducted detailed analysis and generated 4 weekly and 1 monthly business reviews for the Food Safety Investigation team, facilitating strategic decisions that led to a 15% improvement in operational processes in the Indian market.</li>
+                <li>Boosted team productivity by analyzing datasets with Tableau and DBT, driving insights that boosted operational efficiency by 8%.</li>
+                <li>Built ETL pipelines using AWS Redshift and S3 to transform and load data, improving data accessibility by 40%. </li>
+                <li>Automated repetitive data preprocessing tasks with Python & SQL, reducing manual effort by 30%, enabling real-time analytics. </li>
+                <li>Worked collaboratively with teams to optimize workflows, enhance data-driven decisions, and improve efficiency by 15%.</li>
+                <li>Identified and resolved food safety compliance issues in e-commerce product complaints, reducing escalations by 20%.</li>
               </ul>
             </div>
           </div>
@@ -342,10 +337,10 @@ const Experience = () => {
               <h4>Target Corporation</h4>
               <p className="date">Jan 2017 - Nov 2018</p>
               <ul>
-                <li>Managed item data, including vendor information, ensuring a 95% on-time launch of items on Target.com. Led the analysis and reporting of key business metrics, enabling the team to derive actionable insights that increased sales by 20%.</li>
-                <li>Attained certification through a 'Train the Trainer' program, enhancing training capabilities for over 30 team members.</li>
-                <li>Pioneered testing of the Pipeline application upon initial release, ensuring 100% compliance with defined regulations and reducing testing time by 25%.</li>
-                <li>Initiated and managed over 2,000 guest reviews, resolving potential issues promptly to enhance guest satisfaction scores by 15%.</li>
+                <li>Orchestrated item data management & vendor coordination, achieving a 98% on-time product launch rate & increasing sales by 20%. </li>
+                <li>Developed SQL queries to clean, analyze and track team & department-level performance metrics, delivering actionable insights.</li>
+                <li>Designed Power BI dashboards to monitor item performance and sales metrics, enabling real-time decision-making.</li>
+                <li>Enhanced guest feedback analysis processes, addressing issues swiftly and increasing satisfaction scores by 15%.</li>
               </ul>
             </div>
           </div>
@@ -363,10 +358,10 @@ const Experience = () => {
               <h4>Technosoft Global Corporation – Target Corporation</h4>
               <p className="date">July 2015 - Dec 2016</p>
               <ul>
-                <li>Strategically mapped Target.com product offerings against key competitors, identifying 15 strategic opportunities for market 
-                positioning that improved market share by 10%. </li>
-                <li>Successfully led critical transition projects such as reverse mapping and price variance analysis, contributing to a 20% increase in 
-                operational efficiency and project success rates.</li>
+                <li>Analyzed Target.com product offerings vs. competitors, identifying 15 opportunities that boosted market share by 10%. </li>
+                <li>Created Tableau visualizations for monthly reports, enabling data-driven decisions and enhancing reporting efficiency. </li>
+                <li>Led reverse mapping & price variance analysis projects, driving 20% improvement in operational efficiency & success rates. </li>
+                <li>Collaborated with cross-functional teams to enhance pricing and inventory strategies, improving overall product availability. </li>
               </ul>
             </div>
           </div>
@@ -384,10 +379,10 @@ const Experience = () => {
               <h4>MyDeals247 Pvt. ltd</h4>
               <p className="date">Sep 2014 - Mar 2015</p>
               <ul>
-                <li>Engaged clients to ensure ongoing updates on our products and market trends, resulting in increased client satisfaction and retention.</li>
-                <li>Contributed to the expansion of product lines and the conceptualization of new products, driving growth and market diversification.</li>
-                <li>Conducted extensive research on global markets, identifying emerging trends and implementing innovative strategies to enhance
-                market penetration and competitiveness.</li>
+                <li>Maintained client engagement by providing updates on products and market trends, increasing satisfaction and retention rates.</li>
+                <li>Researched global markets to identify trends, driving innovative strategies that boosted market penetration and competitiveness. </li>
+                <li>Contributed to product line expansion and ideation of new products, supporting growth and working closely with stakeholders. 
+                </li>
               </ul>
             </div>
           </div>
